@@ -1,0 +1,14 @@
+.navBar{
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.navBar ul{
+    list-style: none;
+    display: flex;
+}
+.navBar li{
+    margin: 0px 5px;
+}
