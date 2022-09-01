@@ -4,20 +4,25 @@ import { NavLink } from 'react-router-dom'
 const NavBar = () => {
 	return (
 		<nav className={styles.navBar}>
-			<div className="icon">
-				<NavLink to="/">Home icon</NavLink>
+			<div className={styles.navLogo}>
+				<NavLink to="/">
+					Home
+					<img />
+				</NavLink>
 			</div>
-			<ul>
-				<li>
-					<NavLink to="/about">About</NavLink>
-				</li>
-				<li>
-					<NavLink to="/portfolio">Portfolio</NavLink>
-				</li>
-				<li>
-					<NavLink to="/contact">Contact</NavLink>
-				</li>
-			</ul>
+			<div className={styles.navLinks}>
+				<ul>
+					<li>
+						<NavLink to="/about">About</NavLink>
+					</li>
+					<li>
+						<NavLink to="/portfolio">Portfolio</NavLink>
+					</li>
+					<li>
+						<NavLink to="/contact">Contact</NavLink>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	)
 }
