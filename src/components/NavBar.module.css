@@ -7,6 +7,10 @@
     background-color: transparent;
 } 
 
+.navLinkColor{
+    color: white;
+}
+
 .navLinks{
     width: 100%;
 }
@@ -21,7 +25,7 @@
 .navLinks li{
    margin: 0 3%;
 }
-.navLinks li a:hover{
+.navLinksColor a:hover{
     color: rgb(235, 55, 85);
  }
 

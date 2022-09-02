@@ -1,0 +1,19 @@
+.transparentBox {
+    width: 60vw;
+    height: 65vh;
+    /* background-color: whitesmoke; */
+    /* background-color: rgba(0,0,139,0.5); */
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+    width: 400px;
+    height: 200px;
+}

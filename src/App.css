@@ -18,9 +18,12 @@ html{
 main{
     text-align: center;
     margin-top: 7rem;
+    
 }
 /* adding the active class here, not working with css modules. */
 a.active {
-    text-decoration: line-through;
-    text-decoration-color: ;
+    text-decoration:overline;
+    text-decoration-thickness: 2.5px;
+    color:rgb(235, 55, 85);
+    
 }
