@@ -1,19 +1,30 @@
-.transparentBox {
-    width: 60vw;
-    height: 65vh;
-    /* background-color: whitesmoke; */
-    /* background-color: rgba(0,0,139,0.5); */
-    background-color: rgba(0,0,0,0.6);
-    border-radius: 25px;
+.portfolioBox {
+    width: 80vw ;
+    height: 70vh; 
     margin: auto;
+    background-color: whitesmoke;
+    border-radius: 35px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    align-items: center;
+  
 }
-.card {
-    background-color: white;
-    margin-top: 15px;
+.portfolioItem{
+    margin: 0 15px;
+    width: 100%;
+}
+.portfolioItem h2{
+    cursor: pointer;
+}
+.portfolioItem img{
+    width: 70%;
+    height: 40%;
+    cursor: pointer;   
+    margin-top: 20px;
     border-radius: 15px;
-    width: 400px;
-    height: 200px;
+    box-shadow: 0 0 15px rgb(112, 111, 111);
 }
+.imgTitle{
+    margin-bottom:20px ;
+}
+

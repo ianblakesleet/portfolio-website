@@ -8,7 +8,7 @@ const About = () => {
 				who loves solving puzzles and learning new things! I graduated
 				from the Web Development program at Devmountain in July of 2022.
 				When I'm not coding, you can find me in the gym, out in nature
-				paddle boarding, or snorkling
+				paddle boarding, or snorkling.
 			</p>
 		</div>
 	)
