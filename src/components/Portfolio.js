@@ -1,12 +1,17 @@
 import React, { useState } from 'react'
 import styles from './portfolio.module.css'
 import ModalOne from './ModalOne'
+import ModalTwo from './ModalTwo'
 
 const Portfolio = () => {
 	const [modal, setModal] = useState(false)
+	const [modalTwo, setModalTwo] = useState(false)
 	console.log(modal)
 	const modalHandler1 = () => {
 		setModal(!modal)
+	}
+	const modalHandler2 = () => {
+		setModalTwo(!modalTwo)
 	}
 	return (
 		<>
@@ -15,7 +20,7 @@ const Portfolio = () => {
 					<div className={styles.imgTitle}>
 						<h2>LiveChat</h2>
 						<img
-							src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+							src="https://i.imgur.com/1PhfWgM.png"
 							onClick={() => modalHandler1()}
 						/>
 					</div>
@@ -34,7 +39,10 @@ const Portfolio = () => {
 				<div className={styles.portfolioItem}>
 					<div className={styles.imgTitle}>
 						<h2>TaskManager</h2>
-						<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHdlYnNpdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
+						<img
+							src="https://i.imgur.com/DGETPy0.png"
+							onClick={() => modalHandler2()}
+						/>
 					</div>
 					<div className={styles.description}>
 						<p>
@@ -49,6 +57,8 @@ const Portfolio = () => {
 					</div>
 				</div>
 			</div>
+			{modal && <ModalOne toggleModal={modalHandler1} />}
+			{modalTwo && <ModalTwo toggleModalTwo={modalHandler2} />}
 		</>
 	)
 }
