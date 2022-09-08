@@ -8,7 +8,7 @@ const Modal = ({ toggleModal }) => {
 		<div className={styles.modal}>
 			<div className={styles.overlay} onClick={() => toggleModal()}></div>
 			<div className={styles.modalContent}>
-				<Carousel>
+				<Carousel infiniteLoop={true}>
 					<div>
 						<img src="https://i.imgur.com/tZIbJcT.png" alt="" />
 					</div>

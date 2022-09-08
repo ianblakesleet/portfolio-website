@@ -11,7 +11,7 @@ const ModalTwo = ({ toggleModalTwo }) => {
 				onClick={() => toggleModalTwo()}
 			></div>
 			<div className={styles.modalContentTwo}>
-				<Carousel>
+				<Carousel infiniteLoop={true}>
 					<div>
 						<img src="https://i.imgur.com/2ayWYN3.png" alt="" />
 					</div>

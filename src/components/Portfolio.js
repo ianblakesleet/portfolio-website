@@ -26,13 +26,13 @@ const Portfolio = () => {
 					</div>
 					<div className={styles.description}>
 						<p>
-							As a student at Devmountain I developed a chatroom
-							application as my full-stack project, allowing users
-							to create and join chatrooms and communicate
-							realtime to one another through text and emojis. The
-							chatroom web app features the use of Websockets
-							(socket.io), Javascript, React, PostgreSQL, Axios,
-							Express, Auth0.
+							For my first project using React, I developed a
+							chatroom application as my full-stack project which
+							allows users to create and join chatrooms and
+							communicate realtime to one another through text and
+							emojis. The chatroom web app features the use of
+							Websockets (socket.io), Javascript, React,
+							PostgreSQL, Axios, Express, Auth0.
 						</p>
 					</div>
 				</div>
@@ -46,13 +46,15 @@ const Portfolio = () => {
 					</div>
 					<div className={styles.description}>
 						<p>
-							Lorem, ipsum dolor sit amet consectetur adipisicing
-							elit. Natus labore velit alias facilis impedit nemo
-							molestiae, soluta fugit? Doloremque assumenda iste
-							cumque sed dignissimos obcaecati recusandae, neque
-							aperiam eum facere. Lorem ipsum dolor sit amet
-							consectetur adipisicing elit. Consequuntur officia
-							adipisci..
+							As a student at Devmountain I developed a task
+							managing application without a front end framework.
+							The app is full CRUD, meaning users can read, add,
+							edit, and delete tasks connected to a PostgreSQL
+							database. I provided authentication and user
+							credentials using Bcrypt to ensure a secure
+							authentication. The application uses HTML/CSS,
+							JavaScript, Axios, Express, PostgreSQL, Sequelize,
+							and Bcrypt.
 						</p>
 					</div>
 				</div>
